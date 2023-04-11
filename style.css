@@ -1,0 +1,54 @@
+body
+{
+    margin: 0;
+}
+main
+{
+    flex: 1;
+}
+body
+{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    font-family:monospace;
+}
+.my-class 
+{
+  color:brown;  
+}
+.my-second 
+{
+    color:darkgreen;
+}
+#my-id
+{
+    color:blue;
+}
+header
+{
+background-color:aquamarine;
+padding: 20px;
+}
+
+header h1
+{
+font-family: sans-serif;
+font-size: 60px;
+margin: 0;
+margin-bottom: 10px;
+}
+header nav
+{
+    margin-left: 2px;
+}
+
+header nav a
+{
+display:inline-block;
+padding: 0 15px;
+color:rgb(red, green, blue);
+text-decoration: none;
+font-weight: bold;
+
+}
