@@ -9,25 +9,26 @@
 </head>
 <body>
     <header>
-        <h1> Contacts </h1>
+        <h1><center> Contacts</center> </h1>
             <nav>
-            <a href="lesson2_prg.html">Start Page</a>
+            <a href="lesson2_prg.html">Home Page</a>
             <a href="about.html"> About me</a>
             <a href= "hobbys.html">hobbys</a>
             <a class=" active" href="Contacts.html">Contacts</a>
+          
             </nav>   
 
     </header>
     <main>
   <form>
-    <label for="name">Name:</label>
-    <input class="my-form" type="text" id="name" name="name"><br>
+    <label for="name">Name:</label><br>
+    <input class="my-form" type="text" id="name" name="name" placeholder="your name" required><br>
 
-    <label for="e-mail">E-mail:</label>
-    <input class="my-form" type="email" id="e-mail" name="e-mail"><br>
+    <label for="e-mail">E-mail:</label><br>
+    <input class="my-form" type="email" id="e-mail" name="e-mail" placeholder="your e-mail" pattern="@gmail.com" required><br>
 
-    <label for="message">Message:</label>
-    <textarea class="my-class" id="message" name="message"></textarea><br>
+    <label for="message">Message:</label><br>
+    <textarea class="my-class" id="message" name="message" placeholder="enter message" required></textarea><br>
 
     <input type="submit" value="send"> 
   </form>
